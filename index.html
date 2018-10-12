@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Yasir Masri - Portfolio</title>
+    <!-- css files -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.3.1/css/bulma.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+
+    <meta name="author" content="Yasir Masri">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="nav container void-background">
+        <!-- This "nav-menu" is hidden on mobile -->
+        <!-- Add the modifier "is-active" to display it on mobile -->
+        <div class="nav-left">
+            <a title="Coming Soon" class="nav-item">
+                <span class="icon">
+                    <i class="fa fa-medium"></i>
+                </span>
+            </a>
+            <a href="https://github.com/Ymasri93" class="nav-item">
+                <span class="icon">
+                    <i class="fa fa-github"></i>
+                </span>
+            </a>
+        </div>
+
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="#about">About</a>
+            <a class="nav-item" href="#projects">Projects</a>
+            <a class="nav-item" href="#social">Social</a>
+        </div>
+
+        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+        <span class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </span>
+    </nav>
+
+    <!-- About Me -->
+    <section id="about" class="section section-1">
+        <div class="container has-text-centered">
+            <img class="avatar" src="assets/img/profile.png">
+        </div>
+        <div class="container"></br>
+            <p class="intro">
+                Web Developer, intrigued and passionate about experementing with new technologies, proficient in Python
+                and JavaScript along with some of their common frameworks.
+            </p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="section section-2">
+        <div class="container">
+            <div class="has-text-centered">
+                <h3 class="title is-3">Projects</h3>
+            </div>
+
+            <div class="columns is-multiline is-desktop">
+                <!-- Project 1 -->
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <a target="_blank" href="https://ureed.com">
+                                        <img src="assets/img/Ureed-logo.png" alt="Ureed">
+                                    </a>
+                                </figure>
+                            </div>
+                            <br clear="all">
+                            <div>
+                                <p>
+                                    Part of the development team that created the MVP of ureed, Ureed functions as an
+                                    online platform that connects employers with freelance translators and editors.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="column">
+                    <div class="box project-text">
+                        <article>
+                            <div>
+                                <figure class="image project-figure">
+                                    <a target="_blank" href="https://app.robu.io">
+                                        <img src="assets/img/robu-logo.png" alt="Robu">
+                                    </a>
+                                </figure>
+                            </div>
+                            <br clear="all">
+                            <div>
+                                <p>
+                                    Robu is a financial strategy software that improves cash flow visibility, and gives
+                                    CEOs critical insight on financial performance.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social -->
+    <section id="social" class="section section-3">
+        <div class="container">
+            <div class="has-text-centered">
+                <h3 class="title is-3">Let's Socialize</h3>
+            </div>
+            <div class="social-container columns">
+                <div class="column is-3 has-text-centered">
+                </div>
+                <div class="column is-6 has-text-centered">
+                    <a target="_blank" href="https://www.linkedin.com/in/yasir-masri/"><img class="" src="assets/img/linkedin.png"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <section class="section-4 has-text-centered container">
+        Yasir Masri
+    </section>
+
+    <!-- Scripts  -->
+    <script src="controller.js"></script>
+</body>
+
+</html>
