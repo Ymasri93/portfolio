@@ -72,7 +72,7 @@ a.nav-item:hover {
 }
 
 .box {
-    background-color: transparent;
+    background-color: #64b0a4;
     min-height: 300px;
 	border: 2px solid rgba(7, 59, 79, 0.5);
 }
